@@ -843,6 +843,14 @@ a:hover {
   backface-visibility: hidden;
   background-color: #fff;
 }
+
+.sivustobox {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+
 .work-box:hover img {
   transform: scale(1.3);
 }

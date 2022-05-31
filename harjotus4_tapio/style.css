@@ -1,0 +1,113 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5;
+    padding: 6px;
+    background: rgba(248, 190, 30, 0.432);
+    text-align: justify;
+  }
+h1 {
+  text-align: center;
+  background-color: red;
+  margin: auto;
+  font-size: 50px;
+}
+  li {
+      font-size: 35px;
+  }
+h3 {
+ font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  background-color: blue;
+  padding: 30px;
+  margin-top: auto;
+  margin: auto;
+  font-size: 1px;
+}
+h6 {
+  background-color:white;
+  background-size: 10px;
+  margin-top: 1px;
+  margin: auto;
+  padding: 30px;
+  font-size: 1px;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background-color: rgb(0, 3, 161);
+  padding: 26px;
+  width: auto;
+  margin: auto;
+  font-size: 2px;
+}
+#rcorners2 {
+  border-radius: 25px;
+  background-color: white;
+  padding: 26px;
+  width: auto;
+  margin: auto;
+  font-size: 2px;
+}
+#rcorners3 {
+  border-radius: 25px;
+  background-color: red;
+  padding: auto;
+  width: auto;
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+}
+mark {
+  text-align: center;
+  font-size: 34px;
+}
+hr {
+  width: auto;
+  padding: auto;
+  color: rgb(255, 38, 0);
+  margin-top: auto;
+  display: block;
+  border-style: groove;
+  border-width: 10px;
+  border-color: red;
+}
+h7 {
+  font-size: 34px;
+  text-align: center;
+  font-style: bold;
+}
+h8 {
+  font-size: 30px;
+  color: rgba(0, 47, 255, 0.705);
+}
+p {
+  font-size: 37px;
+  text-align: center;
+}
+header {
+  font-size: 45px;
+  color: rgb(89, 16, 224);
+}
+.navbutton {
+  display: inline-block;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(255, 5, 5);
+  border-radius: 200px;
+  text-decoration: none;
+  
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+}
+a {
+  color:rgb(255, 255, 255);
+}
+b {
+  font-size: 40px;
+}

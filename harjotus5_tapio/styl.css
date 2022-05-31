@@ -1,0 +1,81 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: nav;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header '
+    'menu nav nav nav right right'
+    'menu main main main right right '
+    'footer footer footer footer footer footer ';
+  grid-gap: 10px;
+  padding: 10px;
+  color: rgb(18, 253, 30);
+  font-family: cursive;
+}
+
+.grid-container > div {
+  background-color: rgba(224, 0, 0, 0.65);
+  text-align: center;
+  padding: 20px ;
+  font-size: 30px;
+}
+body {
+ background-image: url(RavintolaL.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h1 {
+    color: red;
+    
+}
+h3 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 35px;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+
+input {
+  padding: 10px;
+}
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: unset;
+}
+tr {
+  background-color: rgba(233, 49, 17, 0.87)
+}
+p {
+  
+ position: relative;
+  padding: 0px;
+}
+tr:nth-child(even) {
+  background-color: #ff0202c5;
+}
+textarea {
+ padding: 60px;
+}
+input[type=radio] {
+  border: 0px;
+  width: 10%;
+  height: 2em;
+  position: auto;
+}
