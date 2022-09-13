@@ -140,6 +140,11 @@ a:hover {
   color: #1e1e1e;
   font-size: 1.1rem;
 }
+.title-b {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.5rem;
+}
 
 /*--/ Title A /--*/
 .title-box {
