@@ -170,6 +170,7 @@ a:hover {
   margin: 0 auto;
 }
 
+
 /*--/ Title Left /--*/
 .title-box-2 {
   margin-bottom: 3rem;
@@ -843,18 +844,15 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
+  display: inline-block;
+  box-sizing: content-box;   
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.sivustobox {
-    margin-bottom: 3rem;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    background-color: #fff;
-}
+
 
 .work-box:hover img {
   transform: scale(1.3);
